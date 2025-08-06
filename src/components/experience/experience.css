@@ -1,0 +1,41 @@
+#experienciaEstudios{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  min-height: 300px;
+  max-width: 900px;
+  margin:20px auto;
+}
+
+.buttons {
+  display: flex;
+  margin-bottom: 20px;
+  gap: var(--fdr-portfolio-gap-m);
+  
+
+}
+
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  cursor: pointer;
+  background: lightgray;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+button.active {
+  background: #8d5537;
+  color: white;
+}
+
+.seccion {
+  display: none;
+}
+
+.seccion.visible {
+  
+  display: block;
+}

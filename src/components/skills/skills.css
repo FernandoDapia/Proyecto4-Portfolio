@@ -1,0 +1,31 @@
+#skills{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 40px auto;
+  max-width: 900px;
+  min-height: 250px;
+  
+}
+#skills > h4 {
+  font-size: 40px;
+}
+
+.skillsIcons{
+  display: flex;
+  flex-wrap: wrap;
+  object-fit: contain;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+  gap: var(--fdr-portfolio-gap-l);
+  margin-top: var(--fdr-portfolio-margin-m);
+}
+
+.skillsIcons > a > img{
+width: 80px;
+}
+
+

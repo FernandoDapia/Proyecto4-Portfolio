@@ -1,0 +1,53 @@
+:root {
+  --background: ;
+  --heading: ;
+  --body: ;
+  --Text-1: white;
+
+  /* SPACING */
+  --fdr-portfolio-margin-xs: 10px;
+  --fdr-portfolio-margin-s: 20px;
+  --fdr-portfolio-margin-m: 30px;
+  --fdr-portfolio-margin-l: 40px;
+  --fdr-portfolio-margin-xl: 50px;
+  --fdr-portfolio-margin-xxl: 60px;
+
+  --fdr-portfolio-padding-xs: 10px;
+  --fdr-portfolio-padding-s: 20px;
+  --fdr-portfolio-padding-m: 30px;
+  --fdr-portfolio-padding-l: 40px;
+  --fdr-portfolio-padding-xl: 50px;
+  --fdr-portfolio-padding-xxl: 80px;
+
+  --fdr-portfolio-gap-xs: 10px;
+  --fdr-portfolio-gap-s: 20px;
+  --fdr-portfolio-gap-m: 30px;
+  --fdr-portfolio-gap-l: 40px;
+  --fdr-portfolio-gap-xl: 50px;
+  --fdr-portfolio-gap-xxl: 60px;
+
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100svh;
+  background: radial-gradient(circle, rgb(8, 36, 74) 0%, rgb(3, 13, 25) 100%);
+  color: var(--Text-1);
+
+}
+
+a {
+  text-decoration: none;
+  color: var(--Text-1)
+}
+
+ul {
+  list-style-type: none;
+}

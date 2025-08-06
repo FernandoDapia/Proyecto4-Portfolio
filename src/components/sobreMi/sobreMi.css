@@ -1,0 +1,26 @@
+#sobreMi{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  min-height: 300px;
+  max-width: 900px;
+  margin:20px 20px;
+  padding:var(-fdr-portfolio-padding-s);
+
+  
+}
+
+#sobreMi > div {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  gap: var(--fdr-portfolio-gap-m);
+}
+
+#sobreMi > div > h3 {
+  font-size: 40px;
+}
+
+#sobreMi > div > p {
+  font-size: 18px;
+}
