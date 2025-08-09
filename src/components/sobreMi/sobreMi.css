@@ -4,8 +4,8 @@
   align-items: center;
   min-height: 300px;
   max-width: 900px;
-  margin:20px 20px;
-  padding:var(-fdr-portfolio-padding-s);
+   padding: var(--fdr-portfolio-padding-m) var(--fdr-portfolio-margin-s);
+  margin: var(--fdr-portfolio-margin-s) auto;
 
   
 }
@@ -23,4 +23,5 @@
 
 #sobreMi > div > p {
   font-size: 18px;
+  line-height: 1.6;
 }
