@@ -1,0 +1,46 @@
+import "./mobileMenu.css";
+
+const template = () => {
+  return `
+      <div class="mobile-menu">
+      <button class="hamburger-btn">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="mobile-nav">
+        <ul>
+          <li><a href="#aboutme">Sobre mi</a></li>
+          <li><a href="#education">Estudios</a></li>
+          <li><a href="#experience">Experiencia</a></li>
+          <li><a href="#projects">Proyectos</a></li>
+        </ul>
+      </nav>
+    </div>
+  `;
+};
+const MobileMenu = () => {
+  document.addEventListener("DOMContentLoaded", () => {
+    const hamburgerBtn = document.querySelector(".hamburger-btn");
+    const mobileNav = document.querySelector(".mobile-nav");
+
+    if (!hamburgerBtn || !mobileNav) return;
+
+    hamburgerBtn.addEventListener("click", (e) => {
+      e.stopPropagation();
+      mobileNav.classList.toggle("active");
+      hamburgerBtn.classList.toggle("active");
+    });
+
+    document.addEventListener("click", (e) => {
+      if (!mobileNav.contains(e.target) && !hamburgerBtn.contains(e.target)) {
+        mobileNav.classList.remove("active");
+        hamburgerBtn.classList.remove("active");
+      }
+    });
+  });
+
+  return template();
+};
+
+export default MobileMenu;
