@@ -4,9 +4,7 @@ const template = () => {
   return `
       <div class="mobile-menu">
       <button class="hamburger-btn">
-        <span></span>
-        <span></span>
-        <span></span>
+      <img src="https://res.cloudinary.com/dy45x7mjl/image/upload/v1725209556/Proyecto-1-rtc/menu_nrnzgc.png" alt="Menú" class="hamburger-icon"/>
       </button>
       <nav class="mobile-nav">
         <ul>
