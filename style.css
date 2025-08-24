@@ -35,17 +35,19 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
+html {
+  scroll-padding-top: 80px; 
+}
 
 body {
   height: 100svh;
   background: radial-gradient(circle, rgb(8, 36, 74) 0%, rgb(3, 13, 25) 100%);
   color: var(--Text-1);
-
 }
 
 a {
   text-decoration: none;
-  color: var(--Text-1)
+  color: var(--Text-1);
 }
 
 ul {

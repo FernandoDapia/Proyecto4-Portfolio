@@ -10,10 +10,8 @@ const template = () => {
       </button>
       <nav class="mobile-nav">
         <ul>
-          <li><a href="#aboutme">Sobre mi</a></li>
-          <li><a href="#education">Estudios</a></li>
-          <li><a href="#experience">Experiencia</a></li>
-          <li><a href="#projects">Proyectos</a></li>
+          <li><a href="#sobreMi">Sobre mi</a></li>
+          <li><a href="#experienciaEstudios">Estudios & Proyectos</a></li>
         </ul>
       </nav>
     </div>

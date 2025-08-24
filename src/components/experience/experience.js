@@ -7,7 +7,7 @@ const template = () => {
   <section id="experienciaEstudios">
     <div class="buttons">
       <button data-section="section1" class="buttonSelect active">Estudios</button>
-      <button data-section="section2" class="buttonSelect">Experiencia</button>
+      <button data-section="section2" class="buttonSelect">Proyectos</button>
     </div>
     <div id="section1" class="seccion visible">
       ${generateStudies()}
